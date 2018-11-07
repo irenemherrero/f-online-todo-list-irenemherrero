@@ -134,6 +134,7 @@ body {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
+  cursor: pointer;
 }
 
 .container-modal {
@@ -196,6 +197,7 @@ body {
   color: white;
   padding: 10px;
   font-size: 20px;
+  outline: none;
 }
 
 .container-modal-window-wrapper-button {
