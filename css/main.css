@@ -11,6 +11,8 @@ body {
   align-items: center;
   height: 100vh;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .container {
@@ -132,6 +134,96 @@ body {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
+}
+
+.container-modal {
+  position: absolute;
+  opacity: 0.8;
+}
+
+.container-modal-window {
+  position: absolute;
+  height: 25%;
+  width: 30%;
+  background-color: #009D8E;
+  border-radius: 10px;
+  -webkit-box-shadow: 2px 2px 2px lightgrey;
+  box-shadow: 2px 2px 2px lightgrey;
+  top: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.container-modal-window-wrapper {
+  width: 85%;
+  height: 85%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.container-modal-window-wrapper-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 100%;
+}
+
+.container-modal-window-wrapper-input label {
+  padding: 10px 0px;
+  color: white;
+}
+
+.container-modal-window-wrapper-input input {
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: #009D8E;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.container-modal-window-wrapper-button {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.container-modal-window-wrapper-button button {
+  width: 50%;
+  height: 40%;
+  border-radius: 30px;
+  background: #009D8E;
+  border: 3px solid white;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
 }
 
 /*# sourceMappingURL=main.css.map */

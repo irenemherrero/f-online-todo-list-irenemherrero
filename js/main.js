@@ -43,3 +43,21 @@ dayNumberContent.innerHTML = dayNumber;
 dayNameContent.innerHTML = dayName;
 monthAndYearContent.innerHTML = monthName + ', ' + year;
 
+//Add button functionality
+
+const addButton = document.querySelector('.add-button');
+
+function handleHideModal(){
+    const modalBackground = document.querySelector('.container-modal');
+    const modalWindow = document.querySelector('.container-modal-window');
+    modalBackground.classList.add('hidden');
+    modalWindow.classList.add('hidden');
+}
+function handleAddTask(){
+    
+    handleHideModal();
+}
+
+
+
+addButton.addEventListener('click', handleAddTask);
