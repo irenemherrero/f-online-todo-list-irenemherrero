@@ -18,8 +18,11 @@ body {
 .container {
   border: 1px solid lightgray;
   background-color: white;
-  width: 35vw;
+  width: 50vh;
+  min-width: 320px;
+  max-width: 450px;
   height: 80vh;
+  max-height: 800px;
   border-radius: 10px;
   position: relative;
 }
@@ -77,6 +80,10 @@ body {
   -ms-flex-direction: column;
   flex-direction: column;
   padding: 20px;
+}
+
+.container-form-list {
+  padding: 0;
 }
 
 .container-form-option {
