@@ -18,7 +18,8 @@ Vamos a realizar una aplicación simple de lista de tareas con una funcionalidad
 
 - Todo se desarrolla en la misma página, solo hay 1.
 
-### Tareas:
+### Tareas
+
 - Completar una tarea: Hacer clic en una tarea, o en su checkbox, marca la tarea como completada y la coloca al final de la lista
 
 - Desmarcar una tarea completada: Hacer clic en una tarea completada, o en su checkbox, marca la tarea como pendiente y la coloca al principio de la lista
